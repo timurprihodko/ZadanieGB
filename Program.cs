@@ -27,3 +27,9 @@ namespace ConsoleApp1
                 }
                 else continue;
             }
+
+            Console.WriteLine(string.Join(Environment.NewLine, result, 0, realSize));
+            Console.ReadLine();
+        }
+    }
+}
