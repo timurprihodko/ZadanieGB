@@ -15,3 +15,7 @@ namespace ConsoleApp1
                 "123",
                 "123d"
             };
+
+            var result = new string[array.Length];
+            var realSize = 0;
+
